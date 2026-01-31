@@ -1,1 +1,1 @@
-require("earlgrey")._load()
+require("earlgrey").load()
