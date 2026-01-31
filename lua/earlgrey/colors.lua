@@ -1,0 +1,113 @@
+local M = {}
+
+M.colors = {
+	-- Base Palette
+	foreground = "#605A52",
+	foreground_alt = "#5A544C", -- Slightly darker, for more contrast
+	background = "#FCFBF9",
+	background_alt = "#F7F3EE", -- Slightly darker background
+
+	-- Accents
+	purple = "#83577D",
+	blue = "#556995",
+	teal = "#477A7B",
+	orange = "#886A44",
+	green = "#747B4D",
+	red = "#8F5652",
+	berry = "#AA5087", -- Vibrant, for UI elements/Search
+
+	-- Special
+	comment = "#9E9A95",
+
+	-- Blends (1 = Lightest, 9 = Darkest)
+
+	-- Grey Scale
+	grey1 = "#ECEBE8",
+	grey2 = "#DDDBD8",
+	grey3 = "#CDCBC7",
+	grey4 = "#BEBBB6",
+	grey5 = "#AEABA6",
+	grey6 = "#9E9A95",
+	grey7 = "#8F8A84",
+	grey8 = "#7F7A73",
+	grey9 = "#706A63",
+
+	-- Purple Scale
+	purple1 = "#F0EBED",
+	purple2 = "#E4DAE0",
+	purple3 = "#D8CAD4",
+	purple4 = "#CCB9C7",
+	purple5 = "#C0A9BB",
+	purple6 = "#B399AF",
+	purple7 = "#A788A2",
+	purple8 = "#9B7896",
+	purple9 = "#8F6789",
+
+	-- Blue Scale
+	blue1 = "#EBECEF",
+	blue2 = "#DBDEE5",
+	blue3 = "#CACFDB",
+	blue4 = "#B9C1D1",
+	blue5 = "#A9B2C7",
+	blue6 = "#98A3BD",
+	blue7 = "#8795B3",
+	blue8 = "#7686A9",
+	blue9 = "#66789F",
+
+	-- Teal Scale
+	teal1 = "#EAEEEC",
+	teal2 = "#D8E1E0",
+	teal3 = "#C6D4D3",
+	teal4 = "#B4C7C7",
+	teal5 = "#A2BBBA",
+	teal6 = "#8FAEAD",
+	teal7 = "#7DA1A1",
+	teal8 = "#6B9494",
+	teal9 = "#598788",
+
+	-- Orange Scale
+	orange1 = "#F0EDE7",
+	orange2 = "#E5DED5",
+	orange3 = "#D9D0C3",
+	orange4 = "#CEC1B1",
+	orange5 = "#C2B39F",
+	orange6 = "#B6A48C",
+	orange7 = "#AB967A",
+	orange8 = "#9F8768",
+	orange9 = "#947956",
+
+	-- Green Scale
+	green1 = "#EEEEE8",
+	green2 = "#E1E1D7",
+	green3 = "#D3D5C5",
+	green4 = "#C6C8B4",
+	green5 = "#B8BBA3",
+	green6 = "#AAAE92",
+	green7 = "#9DA181",
+	green8 = "#8F956F",
+	green9 = "#82885E",
+
+	-- Red Scale
+	red1 = "#F1EBE8",
+	red2 = "#E6DAD8",
+	red3 = "#DBCAC7",
+	red4 = "#D0B9B6",
+	red5 = "#C6A9A6",
+	red6 = "#BB9895",
+	red7 = "#B08884",
+	red8 = "#A57773",
+	red9 = "#9A6763",
+
+	-- Berry Scale
+	berry1 = "#F4EAEE",
+	berry2 = "#ECD9E2",
+	berry3 = "#E3C8D7",
+	berry4 = "#DBB7CB",
+	berry5 = "#D3A6C0",
+	berry6 = "#CB94B5",
+	berry7 = "#C383A9",
+	berry8 = "#BA729E",
+	berry9 = "#B26192",
+}
+
+return M
