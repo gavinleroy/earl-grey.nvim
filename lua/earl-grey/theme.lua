@@ -22,8 +22,8 @@ function M.setup(colors)
 
 		-- Gutter / Line Numbers
 		LineNr = { fg = colors.grey4 },
-		CursorLineNr = { fg = colors.berry, bold = true },
-		SignColumn = { bg = colors.background },
+		CursorLineNr = { fg = colors.grey8, bold = true },
+		SignColumn = { bg = colors.background_alt },
 
 		-- Search
 		Search = { fg = colors.berry1, bg = colors.berry }, -- Earl Grey spec: Berry for UI
