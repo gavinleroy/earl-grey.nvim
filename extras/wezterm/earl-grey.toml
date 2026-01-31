@@ -56,6 +56,6 @@ brights = [
 ]
 
 [metadata]
-name = 'earlgrey'
+name = 'earl-grey'
 author = 'Gavin Gray'
-origin_url = 'github.com/gavinleroy/earlgrey.nvim'
+origin_url = 'github.com/gavinleroy/earl-grey.nvim'

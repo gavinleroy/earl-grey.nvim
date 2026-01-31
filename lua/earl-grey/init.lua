@@ -8,13 +8,13 @@ function M.load()
 	end
 
 	-- 2. Inform Neovim of the theme name and ensure truecolor is on
-	vim.g.colors_name = "earlgrey"
+	vim.g.colors_name = "earl-grey"
 	vim.o.termguicolors = true
 
 	-- 3. Import your modules
 	--    (Note: we access .colors specifically because that's how we structured palette.lua)
-	local colors = require("earlgrey.palette").colors
-	local groups = require("earlgrey.theme").setup(colors)
+	local colors = require("earl-grey.colors").colors
+	local groups = require("earl-grey.theme").setup(colors)
 
 	-- 4. Loop through the groups and apply them
 	for group, settings in pairs(groups) do
@@ -25,7 +25,7 @@ function M.load()
 end
 
 -- Optional: Setup function for user configuration (future proofing)
--- e.g., require("earlgrey").setup({ transparent = true })
+-- e.g., require("earl-grey").setup()
 function M.setup(config)
 	-- For now, we just default to loading.
 	-- You can add logic here later to override palette colors based on config.
