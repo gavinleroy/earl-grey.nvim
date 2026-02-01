@@ -1,59 +1,50 @@
 [colors]
 background = "#FCFBF9"
 foreground = "#605A52"
-
-# Cursor: Spec says Foreground Text on Background (Inverted)
 cursor_bg = "#605A52" 
 cursor_fg = "#FCFBF9"
-
-# Selection: Using Grey2 for background
 selection_bg = "#DDDBD8"
 selection_fg = "#605A52"
+scrollbar_thumb = "#CDCBC7"
 
-# The scrollbar thumb
-scrollbar_thumb = "#CDCBC7" # Grey3
-
-[colors.tab_bar]
-background = "#DDDBD8" # Grey2: The empty space in the tab bar
-
-[colors.tab_bar.active_tab]
-bg_color = "#FCFBF9"   # Seamless with the window background
-fg_color = "#605A52"   # Main foreground
-intensity = "Bold"
-
-[colors.tab_bar.inactive_tab]
-bg_color = "#ECEBE8"   # Grey1: Slightly darker than main background
-fg_color = "#9E9A95"   # Grey6: Comment color for inactive text
-
-[colors.tab_bar.new_tab]
-bg_color = "#DDDBD8"
-fg_color = "#9E9A95"
-
-# ANSI Colors (Standard)
-# Black, Red, Green, Yellow(Orange), Blue, Magenta(Purple), Cyan(Teal), White(Grey)
+# This ensures they belong to the [colors] table
 ansi = [
-    "#5A544C", # Black (ForegroundAlt - Darker Text)
-    "#8F5652", # Red
-    "#747B4D", # Green
-    "#886A44", # Yellow (Orange)
-    "#556995", # Blue
-    "#83577D", # Magenta (Purple)
-    "#477A7B", # Cyan (Teal)
-    "#DDDBD8"  # White (Grey2)
-]
-
-# Bright Colors
-# Using 'Berry' for Bright Magenta to match the spec's UI highlight recommendation
-brights = [
-    "#9E9A95", # Bright Black (Comment color)
+    "#5A544C", # Black
     "#8F5652", # Red
     "#747B4D", # Green
     "#886A44", # Yellow
     "#556995", # Blue
-    "#AA5087", # Bright Magenta (Berry)
+    "#83577D", # Magenta
     "#477A7B", # Cyan
-    "#FCFBF9"  # Bright White (Main Background)
+    "#DDDBD8"  # White
 ]
+
+brights = [
+    "#9E9A95", # Bright Black
+    "#8F5652", # Red
+    "#747B4D", # Green
+    "#886A44", # Yellow
+    "#556995", # Blue
+    "#AA5087", # Bright Magenta
+    "#477A7B", # Cyan
+    "#FCFBF9"  # Bright White
+]
+
+[colors.tab_bar]
+background = "#DDDBD8"
+
+[colors.tab_bar.active_tab]
+bg_color = "#FCFBF9"   
+fg_color = "#605A52"   
+intensity = "Bold"
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#ECEBE8"   
+fg_color = "#9E9A95"   
+
+[colors.tab_bar.new_tab]
+bg_color = "#DDDBD8"
+fg_color = "#9E9A95"
 
 [metadata]
 name = 'earl-grey'
