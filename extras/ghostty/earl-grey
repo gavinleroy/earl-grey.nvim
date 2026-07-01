@@ -1,0 +1,29 @@
+# earl-grey — ported from ~/.config/wezterm/colors/earl-grey.toml
+# origin: github.com/gavinleroy/earl-grey.nvim
+
+background = #FCFBF9
+foreground = #605A52
+cursor-color = #605A52
+cursor-text = #FCFBF9
+selection-background = #DDDBD8
+selection-foreground = #605A52
+
+palette = 0=#5A544C
+palette = 1=#8F5652
+palette = 2=#747B4D
+palette = 3=#886A44
+palette = 4=#556995
+palette = 5=#83577D
+palette = 6=#477A7B
+palette = 7=#DDDBD8
+palette = 8=#9E9A95
+palette = 9=#8F5652
+palette = 10=#747B4D
+palette = 11=#886A44
+palette = 12=#556995
+palette = 13=#AA5087
+palette = 14=#477A7B
+palette = 15=#FCFBF9
+
+# tab bar background from the WezTerm theme; Ghostty has no per-tab colors
+window-titlebar-background = #DDDBD8
